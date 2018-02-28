@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reforcemos</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+    <script>
+      function checkPacoteUm(){
+        document.getElementById("Pacote1").checked= true;
+        document.getElementById("Pacote2").checked= false;
+        document.getElementById("Pacote3").checked= false;
+        document.getElementById("Pacote4").checked= false;
+      }
+      function checkPacoteDois(){
+        document.getElementById("Pacote1").checked= false;
+        document.getElementById("Pacote2").checked= true;
+        document.getElementById("Pacote3").checked= false;
+        document.getElementById("Pacote4").checked= false;
+      }
+      function checkPacoteTres(){
+        document.getElementById("Pacote1").checked= false;
+        document.getElementById("Pacote2").checked= false;
+        document.getElementById("Pacote3").checked= true;
+        document.getElementById("Pacote4").checked= false;
+      }
+      function checkPacoteQuatro(){
+        document.getElementById("Pacote1").checked= false;
+        document.getElementById("Pacote2").checked= false;
+        document.getElementById("Pacote3").checked= false;
+        document.getElementById("Pacote4").checked= true;
+      }
+
+      function aviso(){
+        var div = document.getElementById('aviso');
+        div.className += " alert alert-danger";
+        div.innerHTML = "Nosso contato Online ainda não está pronto! Contate-nos pelo telefone de contato!";
+      }
+    </script>
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Reforcemos</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Início</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">Sobre</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Serviços</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#pacotes">Pacotes</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contato</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#map">Mapa</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Reforcemos</h1>
+        <h3 class="mb-5">
+          <em>Aulas de reforço escolar perfeitas para seu filho!</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Descubra-nos</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Seu filho precisa de aulas presenciais para reforçar seu desempenho escolar?</h2>
+            <p class="lead mb-5">Tenha aulas ministradas por um ex aluno pesquisador do CNPQ (Centro Nacional de Pesquisa)
+              <a href="http://lattes.cnpq.br/2957008995980638">Currículo Lattes</a>!</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">O que oferecemos?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Serviços</h3>
+          <h2 class="mb-5">O que oferecemos?</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Contato Online!</strong>
+            </h4>
+            <p class="text-faded mb-0">Não se precisa mais estar perto para estar junto!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Aulas Presenciais</strong>
+            </h4>
+            <p class="text-faded mb-0">Aceitando Alunos desde o pré até o fim do fundamental!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Bom suporte!</strong>
+            </h4>
+            <p class="text-faded mb-0">Com suporte online, podemos discutir melhores abordagens para seu filho!
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <strong>Calma e classe</strong>
+            </h4>
+            <p class="text-faded mb-0">Aulas ministradas por ex monitor de linguagem de programação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="pacotes">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Pacotes</h3>
+          <h2 class="mb-5">Pacotes de ensino para seu filho.</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item js-scroll-trigger" href="#contact" onclick="checkPacoteUm();">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Pacote Simples</h2>
+                  <p class="mb-0">Pacote de reforço para ensino fundamental, não cobrindo língua inglesa.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item js-scroll-trigger" href="#contact" onclick="checkPacoteDois();">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Pacote Future</h2>
+                  <p class="mb-0">Aulas de reforço ensino fundamental, cobrindo língua inglesa e com opcional de aulas de introdução à lógica de programação.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item js-scroll-trigger" href="#contact" onclick="checkPacoteTres();">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Pacote avançado</h2>
+                  <p class="mb-0">Pacote cobrindo introdução à lógica de programação e linguagem JAVA.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item js-scroll-trigger" href="#contact" onclick="checkPacoteQuatro();">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Pacote WEB</h2>
+                  <p class="mb-0">Pacote cobrindo lógica de programação, HTML, CSS3, PHP e Banco de dados. Pacote voltado unicamente para WEB, com opcional em JAVA.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white" id="contact">
+      <div class="container text-center">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Contato</h3>
+          <h2 class="mb-5">Contate-nos e contrate-nos!</h2>
+        </div>
+
+        <div class="container container-fluid">
+          <div>
+            <form class="col-xs-8" align="center">
+              <div class="form-group">
+                <input type="text" placeholder="Digite seu Nome." class="form-control" name="nome" id="nome" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Digite seu Email." class="form-control" name="Email" id="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" pattern="^\d{2}-\d{5}-\d{4}$" placeholder="Digite seu número telefônico EX:(81-99832-1761)"class="form-control" name="numero" id="numero" required>
+              </div>
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="segunda" value="Segunda-Feira" name="Dia[]">
+                    <label class="custom-control-label" for="segunda">Segunda-Feira</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="terca" value="Terça-Feira" name="Dia[]">
+                    <label class="custom-control-label" for="terca">Terça-Feira</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="quarta" value="Quarta-Feira" name="Dia[]">
+                    <label class="custom-control-label" for="quarta">Quarta-Feira</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="quinta" value="Quinta-Feira" name="Dia[]">
+                    <label class="custom-control-label" for="quinta">Quinta-Feira</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="Pacote1" name="curso" class="custom-control-input" value="pacoteBasico">
+                    <label class="custom-control-label" for="Pacote1">Pacote Básico</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="Pacote2" name="curso" class="custom-control-input" value="pacoteFuture">
+                    <label class="custom-control-label" for="Pacote2">Pacote Future</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="Pacote3" name="curso" class="custom-control-input" value="pacoteAvancado">
+                    <label class="custom-control-label" for="Pacote3">Pacote Avançado</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="Pacote4" name="curso" class="custom-control-input" value="pacoteWeb">
+                    <label class="custom-control-label" for="Pacote4">Pacote Web</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="manha" name="Turno" class="custom-control-input" value="Manhã">
+                    <label class="custom-control-label" for="manha">Manhã</label>
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="tarde" name="Turno" class="custom-control-input" value="Tarde">
+                    <label class="custom-control-label" for="tarde">Tarde</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <a class="btn btn-dark btn-xl js-scroll-trigger" name="submit" id="submit" onclick="aviso();" href="#contato">Contratar!</a>
+                <br><br>
+                <h3>A parte da manhã é exclusiva para ensino em domicílio e a da tarde para ensino presencial.</h3>
+                <br><br>
+                <div id="aviso">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="map">
+      <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Rua%20Oriental%20Caruaru%20Pernambuco%20Santa%20Rosa&key=AIzaSyBQ4Mzzm5I33zOvQ58BU2VYHyUB3IQaumU" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="text-muted small mb-0">Copyright &copy; Reforcemos 2018</p>
+        <p class="text-muted small mb-0">Telefone para contato: (81)9 9832-1761</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
