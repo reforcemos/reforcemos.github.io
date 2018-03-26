@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Reforcemos</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/proper-style.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -21,6 +20,8 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+    <!--Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
       function checkPacoteUm(){
         document.getElementById("Pacote1").checked= true;
@@ -53,6 +54,7 @@
         div.innerHTML = "Nosso contato Online ainda não está pronto! Contate-nos pelo telefone de contato!";
       }
     </script>
+    <script src="js/fadein.js"></script>
   </head>
 
   <body id="page-top">
@@ -87,7 +89,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead d-flex">
+    <header class="masthead d-flex parallax">
       <div class="container text-center my-auto">
         <h1 class="mb-1">Reforcemos</h1>
         <h3 class="mb-5">
@@ -120,7 +122,7 @@
           <h2 class="mb-5">O que oferecemos?</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 hideme">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-screen-smartphone"></i>
             </span>
@@ -129,7 +131,7 @@
             </h4>
             <p class="text-faded mb-0">Não se precisa mais estar perto para estar junto!</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 hideme">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
@@ -138,7 +140,7 @@
             </h4>
             <p class="text-faded mb-0">Aceitando Alunos desde o pré até o fim do fundamental!</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0 hideme">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span>
@@ -147,7 +149,7 @@
             </h4>
             <p class="text-faded mb-0">Com suporte online, podemos discutir melhores abordagens para seu filho!
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 hideme">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
@@ -305,7 +307,6 @@
               <div class="form-group">
                 <a class="btn btn-dark btn-xl js-scroll-trigger" name="submit" id="submit" onclick="aviso();" href="#contato">Contratar!</a>
                 <br><br>
-                <h3>A parte da manhã é exclusiva para ensino em domicílio e a da tarde para ensino presencial.</h3>
                 <br><br>
                 <div id="aviso">
                 </div>
