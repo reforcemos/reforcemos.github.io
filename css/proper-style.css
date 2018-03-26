@@ -1,0 +1,24 @@
+.parallax {
+    height: 500px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    transition: 0s linear;
+    transition-property: background-position;
+}
+.hideme
+{
+    opacity:0;
+}
+.hideme2
+{
+    opacity:0;
+}
+.hideme3
+{
+    opacity:0;
+}
+.hideme4
+{
+    opacity:0;
+}
