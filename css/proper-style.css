@@ -2,7 +2,7 @@
     height: 500px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
     background-repeat: repeat-y;
-    background-position: 0% 0;
+    background-position: 50% ;
     transition: 0s linear;
     transition-property: background-position;
 }
