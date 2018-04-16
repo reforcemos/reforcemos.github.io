@@ -186,7 +186,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>Pacote Future</h2>
-                  <p class="mb-0">Aulas de reforço ensino fundamental, cobrindo língua inglesa e com opcional de aulas de introdução à lógica de programação.</p>
+                  <p class="mb-0">Aulas de reforço para ensino fundamental e médio, cobrindo língua inglesa.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
@@ -197,7 +197,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>Pacote avançado</h2>
-                  <p class="mb-0">Pacote cobrindo introdução à lógica de programação e linguagem JAVA.</p>
+                  <p class="mb-0">Pacote de reforço para ensino fundamental e médio, cobrindo língua inglesa e com opcional(ou escolha única) de introdução à lógica de programação e linguagem JAVA.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
@@ -208,7 +208,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>Pacote WEB</h2>
-                  <p class="mb-0">Pacote cobrindo lógica de programação, HTML, CSS3, PHP, Javascript e Banco de dados. Pacote voltado unicamente para WEB, com opcional em JAVA.</p>
+                  <p class="mb-0">Pacote cobrindo lógica de programação, HTML, CSS3, PHP, Javascript e Banco de dados. Pacote voltado unicamente para WEB, com opcional em linguagem JAVA.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
@@ -267,40 +267,26 @@
               <div class="form-group">
                 <div class="form-check form-check-inline">
                   <div class="custom-control custom-radio">
-                    <input type="radio" id="Pacote1" name="curso" class="custom-control-input" value="pacoteBasico">
+                    <input type="radio" id="Pacote1" name="curso[]" class="custom-control-input" value="pacoteBasico">
                     <label class="custom-control-label" for="Pacote1">Pacote Básico</label>
                   </div>
                 </div>
                 <div class="form-check form-check-inline">
                   <div class="custom-control custom-radio">
-                    <input type="radio" id="Pacote2" name="curso" class="custom-control-input" value="pacoteFuture">
+                    <input type="radio" id="Pacote2" name="curso[]" class="custom-control-input" value="pacoteFuture">
                     <label class="custom-control-label" for="Pacote2">Pacote Future</label>
                   </div>
                 </div>
                 <div class="form-check form-check-inline">
                   <div class="custom-control custom-radio">
-                    <input type="radio" id="Pacote3" name="curso" class="custom-control-input" value="pacoteAvancado">
+                    <input type="radio" id="Pacote3" name="curso[]" class="custom-control-input" value="pacoteAvancado">
                     <label class="custom-control-label" for="Pacote3">Pacote Avançado</label>
                   </div>
                 </div>
                 <div class="form-check form-check-inline">
                   <div class="custom-control custom-radio">
-                    <input type="radio" id="Pacote4" name="curso" class="custom-control-input" value="pacoteWeb">
+                    <input type="radio" id="Pacote4" name="curso[]" class="custom-control-input" value="pacoteWeb">
                     <label class="custom-control-label" for="Pacote4">Pacote Web</label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check form-check-inline">
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="manha" name="Turno" class="custom-control-input" value="Manhã">
-                    <label class="custom-control-label" for="manha">Manhã</label>
-                  </div>
-                </div>
-                <div class="form-check form-check-inline">
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="tarde" name="Turno" class="custom-control-input" value="Tarde">
-                    <label class="custom-control-label" for="tarde">Tarde</label>
                   </div>
                 </div>
               </div>
@@ -308,6 +294,11 @@
                 <a class="btn btn-dark btn-xl js-scroll-trigger" name="submit" id="submit" onclick="aviso();" href="#contato">Contratar!</a>
                 <br><br>
                 <br><br>
+                <div class="hideme">
+                  <p>
+                    <h3><strong>ATENÇÃO:</strong> A parte da tarde é exclusiva para a parte de programação, sendo Segunda-Feira para o pacote avançado e Terça, Quarta e Quinta-Feira para o pacote WEB</p></h3>
+                  </p>
+                </div>
                 <div id="aviso">
                 </div>
               </div>
